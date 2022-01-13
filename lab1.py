@@ -1,4 +1,4 @@
 import requests
-link = "http://google.com/"
-reponse = requests.get(link)
-print(reponse.content)
+url = "https://raw.githubusercontent.com/zihansu5/CMPUT404lab1/master/lab1.py"
+reponse = requests.get(url)
+print(reponse.text)
